@@ -1,0 +1,28 @@
+8
+
+dir
+48
+http://jenaiz.dreamhosters.com/repos/lectorio/trunk/vendor/plugins/beta_invitation/tasks
+http://jenaiz.dreamhosters.com/repos/lectorio
+
+
+
+2008-10-29T19:34:14.370704Z
+48
+jenaiz
+
+
+svn:special svn:externals svn:needs-lock
+
+beta_invitation_tasks.rake
+file
+
+
+
+
+2008-10-27T14:42:54.000000Z
+7b3d286517da12c70f1db561be3155c2
+2008-10-29T19:34:14.370704Z
+48
+jenaiz
+

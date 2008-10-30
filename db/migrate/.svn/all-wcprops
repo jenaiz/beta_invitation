@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/repos/lectorio/!svn/ver/46/trunk/vendor/plugins/beta_invitation/db/migrate
+END
+002_add_invitation_to_users.rb
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/repos/lectorio/!svn/ver/46/trunk/vendor/plugins/beta_invitation/db/migrate/002_add_invitation_to_users.rb
+END
+001_create_invitations.rb
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/repos/lectorio/!svn/ver/46/trunk/vendor/plugins/beta_invitation/db/migrate/001_create_invitations.rb
+END

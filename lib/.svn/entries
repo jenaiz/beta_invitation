@@ -1,0 +1,89 @@
+8
+
+dir
+48
+http://jenaiz.dreamhosters.com/repos/lectorio/trunk/vendor/plugins/beta_invitation/lib
+http://jenaiz.dreamhosters.com/repos/lectorio
+
+
+
+2008-10-29T19:34:14.370704Z
+48
+jenaiz
+
+
+svn:special svn:externals svn:needs-lock
+
+invitation_mailer.rb
+file
+
+
+
+
+2008-10-28T14:32:41.000000Z
+bbfe04612f81ee0c0b35b3cf8a02a0e6
+2008-10-29T19:34:14.370704Z
+48
+jenaiz
+
+beta_invitation.rb
+file
+
+
+
+
+2008-10-27T14:42:54.000000Z
+494b901025758517ff13ce8ae2d14cd8
+2008-10-29T19:34:14.370704Z
+48
+jenaiz
+
+invitation.rb
+file
+
+
+
+
+2008-10-28T14:32:41.000000Z
+54fb1045e124f6bd9602fccea36c59ba
+2008-10-29T19:34:14.370704Z
+48
+jenaiz
+
+invitations_helper.rb
+file
+
+
+
+
+2008-10-18T14:03:22.000000Z
+62d325ecc54a0746483eb6854bbf425a
+2008-10-29T19:34:14.370704Z
+48
+jenaiz
+
+invitations_controller.rb
+file
+
+
+
+
+2008-10-22T17:16:54.000000Z
+a80048f1a93e2f976af0cc8378f3489f
+2008-10-29T19:34:14.370704Z
+48
+jenaiz
+
+home_controller.rb
+file
+
+
+
+
+2008-10-24T14:05:51.000000Z
+b09085ee8ca838ff359338b5e6809dba
+2008-10-29T19:34:14.370704Z
+48
+jenaiz
+has-props
+
