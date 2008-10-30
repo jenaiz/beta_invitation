@@ -1,4 +1,4 @@
-class AddInvitationsToUserMigrationGenerator < Rails::Generator::Base
+class BetaInvitationMigrationGenerator < Rails::Generator::Base
 
   def manifest
     record do |m|
@@ -7,7 +7,7 @@ class AddInvitationsToUserMigrationGenerator < Rails::Generator::Base
   end
 
   def file_name
-    "add_beta_invitations_to_user"
+    "create_beta_invitations"
   end
 
 end

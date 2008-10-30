@@ -1,0 +1,10 @@
+Description:
+    The migration generator creates a migration to add invitations limit to user and it creates the invitations table.
+
+Example:
+    ./script/generate beta_invitation
+	
+	Migration:  db/migrate/create_beta_invitation.rb
+	
+	
+  The invitations model lives in the lib directory of this plugin. You can move that model into your models directory and modify it if you like.
