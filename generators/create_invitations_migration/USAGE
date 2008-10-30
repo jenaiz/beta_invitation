@@ -1,0 +1,10 @@
+Description:
+    The migration generator creates a migration that create the invitations table where you register the invitations send
+
+Example:
+    ./script/generate create_invitations
+	
+	Migration:  db/migrate/create_invitations.rb
+	
+	
+  The invitations model lives in the lib directory of this plugin. You can move that model into your models directory and modify it if you like.
