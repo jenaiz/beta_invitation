@@ -1,14 +1,13 @@
-class BetaInvitationGenerator < Rails::Generator::Base
+class BetaInvitationControllerGenerator < Rails::Generator::Base
 
   def manifest
     record do |m|
       m.file 'controllers/invitations_controller.rb', 'app/controllers/invitations_controller.rb'
-      #m.file 'controllers/home_controller.rb', 'app/controllers/home_controller.rb'
+      m.file 'controllers/home_controller.rb', 'app/controllers/home_controller.rb'
       
       #helpers
       m.file 'helpers/invitations_helper.rb', 'app/helpers/invitations_helpers.rb'
-      
-      
+            
       #views
       m.directory "app/views/invitations"      
       m.file 'views/invitations/new.html.erb', 'app/views/invitations/new.html.erb'
@@ -21,14 +20,8 @@ class BetaInvitationGenerator < Rails::Generator::Base
        
       #models or mailers
       m.file 'helpers/invitations_helper.rb', 'app/helpers/invitations_helpers.rb'
-      
-      m.migration_template 'migration.rb', 'db/migrate'
-      
+            
     end
-  end
-
-  def file_name
-    "create_beta_invitations"
   end
 
 end

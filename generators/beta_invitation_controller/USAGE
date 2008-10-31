@@ -1,0 +1,10 @@
+Description:
+    The controller generator ...
+
+Example:
+    ./script/generate beta_invitation_controller
+	
+	Copy:  db/migrate/create_beta_invitation.rb
+	
+	
+  ...
