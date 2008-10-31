@@ -9,6 +9,12 @@ class Invitation < ActiveRecord::Base
   #before_create :generate_token
   before_create :decrement_sender_count, :if => :sender
   
+  
+  def use!
+    self.used = true
+    self.save
+  end
+  
 private
   
   def recipient_is_not_registered
