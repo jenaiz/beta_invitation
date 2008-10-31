@@ -3,7 +3,7 @@ class CreateInvitations < ActiveRecord::Migration
     
     # Adding invitation limit to user model
     add_column :users, :invitation_id, :integer
-    add_column :users, :invitation_limit, :integer
+    add_column :users, :invitation_limit, :integer, :default => 5
     
     # Creating invitations table
     create_table :invitations do |t|
