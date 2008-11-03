@@ -19,23 +19,5 @@ invitation.rb
 K 25
 svn:wc:ra_dav:version-url
 V 82
-/repos/lectorio/!svn/ver/48/trunk/vendor/plugins/beta_invitation/lib/invitation.rb
-END
-invitations_helper.rb
-K 25
-svn:wc:ra_dav:version-url
-V 90
-/repos/lectorio/!svn/ver/48/trunk/vendor/plugins/beta_invitation/lib/invitations_helper.rb
-END
-invitations_controller.rb
-K 25
-svn:wc:ra_dav:version-url
-V 94
-/repos/lectorio/!svn/ver/48/trunk/vendor/plugins/beta_invitation/lib/invitations_controller.rb
-END
-home_controller.rb
-K 25
-svn:wc:ra_dav:version-url
-V 87
-/repos/lectorio/!svn/ver/48/trunk/vendor/plugins/beta_invitation/lib/home_controller.rb
+/repos/lectorio/!svn/ver/54/trunk/vendor/plugins/beta_invitation/lib/invitation.rb
 END

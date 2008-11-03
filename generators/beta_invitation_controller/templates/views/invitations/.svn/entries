@@ -1,15 +1,15 @@
 8
 
 dir
-0
-http://jenaiz.dreamhosters.com/repos/lectorio/trunk/vendor/plugins/beta_invitation/generators/beta_invitation/templates/views/invitations
+54
+http://jenaiz.dreamhosters.com/repos/lectorio/trunk/vendor/plugins/beta_invitation/generators/beta_invitation_controller/templates/views/invitations
 http://jenaiz.dreamhosters.com/repos/lectorio
-add
 
 
 
-
-
+2008-10-31T14:51:31.027372Z
+54
+jenaiz
 
 
 svn:special svn:externals svn:needs-lock
@@ -19,12 +19,11 @@ file
 
 
 
-add
 
-
-
-
-
+2008-10-31T14:51:27.000000Z
+df30b90daec83e17effb964d6dd4e2c8
+2008-10-31T14:51:31.027372Z
+54
+jenaiz
 has-props
-has-prop-mods
 

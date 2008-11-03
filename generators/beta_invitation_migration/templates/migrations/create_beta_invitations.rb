@@ -1,4 +1,4 @@
-class CreateInvitations < ActiveRecord::Migration
+class CreateBetaInvitations < ActiveRecord::Migration
   def self.up
     
     # Adding invitation limit to user model
