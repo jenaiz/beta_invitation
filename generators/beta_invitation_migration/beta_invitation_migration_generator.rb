@@ -3,7 +3,7 @@ class BetaInvitationMigrationGenerator < Rails::Generator::Base
   def manifest
     record do |m|
       
-      m.migration_template 'migration.rb', 'db/migrate'
+      m.migration_template 'migrations/create_beta_invitations.rb', 'db/migrate'
       
     end
   end

@@ -1,12 +1,7 @@
 ActiveRecord::Schema.define(:version => 0) do 
-  create_table :hickwalls, :force => true do |t| 
-    t.string :name 
-    t.string :last_squawk 
-    t.datetime :last_squawked_at 
+  create_table :users, :force => true do |t| 
+    t.string :id  
+    t.string :login 
+    t.timestamp 
   end 
-  create_table :wickwalls, :force => true do |t| 
-    t.string :name 
-    t.string :last_tweet 
-    t.datetime :last_tweeted_at 
-  end
 end

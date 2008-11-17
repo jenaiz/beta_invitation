@@ -1,4 +1,5 @@
 require 'test/unit'
+require File.dirname(__FILE__) + '/test_helper.rb'
 
 class BetaInvitationTest < Test::Unit::TestCase
   # Replace this with your real tests.
