@@ -2,7 +2,7 @@ Description:
     The migration generator creates a migration to add invitations limit to user and it creates the invitations table.
 
 Example:
-    ./script/generate beta_invitation
+    ./script/generate beta_invitation_migration
 	
 	Migration:  db/migrate/create_beta_invitation.rb
 	
