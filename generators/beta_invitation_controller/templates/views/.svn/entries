@@ -1,25 +1,0 @@
-8
-
-dir
-54
-http://jenaiz.dreamhosters.com/repos/lectorio/trunk/vendor/plugins/beta_invitation/generators/beta_invitation_controller/templates/views
-http://jenaiz.dreamhosters.com/repos/lectorio
-
-
-
-2008-10-31T14:51:31.027372Z
-54
-jenaiz
-
-
-svn:special svn:externals svn:needs-lock
-
-invitations
-dir
-
-home
-dir
-
-invitation_mailer
-dir
-
