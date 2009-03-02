@@ -4,5 +4,11 @@
     <%= f.label :recipient_email, "Friend's email address" %><br />
     <%= f.text_field :recipient_email %>
   </p>
-  <p><%= f.submit "Invite!" %></p>
+  <p>
+    <%= f.label :message, "Message"%><br/>
+    <%= f.text_area :message %>
+  </p>
+  <p>
+    <%= f.submit "Invite!" %>
+  </p>
 <% end %>

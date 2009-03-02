@@ -4,6 +4,7 @@ class CreateBetaInvitations < ActiveRecord::Migration
     # Adding invitation limit to user model
     add_column :users, :inviter_id, :integer
     add_column :users, :invitation_limit, :integer, :default => 5
+    add_column :users, :invitation_limit_infinite, :boolean, :default => true
     
     # Creating invitations table
     create_table :invitations do |t|
@@ -11,14 +12,15 @@ class CreateBetaInvitations < ActiveRecord::Migration
       t.string :recipient_email
       t.string :token
       t.datetime :sent_at
-      #t.boolean :used, :default => false      
+      t.text :message     
       t.timestamps
     end
   end
   
   def self.down
-    remove_column :users, :inviter_limit
-    remove_column :users, :invitation_id
+    remove_column :users, :inviter_id
+    remove_column :users, :invitation_limit
+    remove_column :users, :invitation_limit_infinite
     
     drop_table :invitations
   end
